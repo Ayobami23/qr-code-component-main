@@ -1,0 +1,41 @@
+body{
+    overflow-x: hidden !important;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+.content {
+    margin: auto;
+    height: 350px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+    margin-bottom: 1rem;
+    margin-top: 20%;
+}
+
+img{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    opacity: 70%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 375px)
+{
+    body{
+        font-size: 15px;
+}
+
+.container {
+    width: 300px;
+}
+}
